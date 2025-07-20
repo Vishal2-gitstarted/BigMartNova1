@@ -39,18 +39,18 @@ export default function Register() {
       px={2}
       gap={6}
     >
-      <Box flex={1}  maxWidth={700} sx={{ display: { xs: "none", md: "block" } }}>
+      <Box flex={1} maxWidth={700} sx={{ display: { xs: "none", md: "block" } }}>
         <Box
           component="img"
           src={loginImage}
           alt="Register"
- sx={{
+          sx={{
             width: "100vh",
             // maxHeight: { xs: 400, md: 550 },
             height: "100%",
             objectFit: "cover",
             borderRadius: 2,
-          }}        />
+          }} />
       </Box>
 
       <Paper
@@ -105,7 +105,7 @@ export default function Register() {
                 py: 1.5,
                 bgcolor: "#000",
                 color: "#fff",
-               
+
               }}
               fullWidth
             >
